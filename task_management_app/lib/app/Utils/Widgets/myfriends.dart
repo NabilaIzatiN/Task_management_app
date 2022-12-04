@@ -49,7 +49,7 @@ class MyFriend extends StatelessWidget {
                 child: GridView.builder(
                     shrinkWrap: true,
                     itemCount: 8,
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: context.isPhone ? 2 : 3,
                         crossAxisSpacing: 20,
                         mainAxisSpacing: 40),
@@ -64,12 +64,12 @@ class MyFriend extends StatelessWidget {
                                     scale: 3)),
                           ),
                           const Spacer(),
-                          const Text( 
+                          const Text(
                             'Dreamers Terimakasih',
                             style: TextStyle(
                               color: AppColors.primaryText,
                             ),
-                            )
+                          )
                         ],
                       );
                     }),
