@@ -5,6 +5,7 @@ import 'package:ionicons/ionicons.dart';
 import 'package:task_management_app/app/Utils/styles/AppColors.dart';
 import 'package:task_management_app/app/Utils/widgets/header.dart';
 import 'package:task_management_app/app/Utils/widgets/myfriends.dart';
+import 'package:task_management_app/app/Utils/widgets/peopleYouMayKnow.dart';
 import 'package:task_management_app/app/Utils/widgets/sidebar.dart';
 import 'package:task_management_app/app/data/controller/auth.controller.dart';
 
